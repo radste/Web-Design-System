@@ -1,0 +1,125 @@
+/* Table of Contents */
+/* 1. Main Structure */
+/* 2. Color Container */
+/* 3. Font Panel */
+/* 4. Text Styles Panel*/
+
+/* 1. Main Structure */
+
+body {
+  Font-Family: 'Cardo', Serif;
+  margin: 0 10%;
+}
+
+div {
+  display: block;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  Font-Family: 'Libre Franklin', Sans-Serif;
+}
+
+p {
+  display: block;
+  Font-Family: 'Libre Franklin', Sans-Serif;
+}
+
+.container {
+  border: 2px solid gray;
+  Padding: 10px;
+  Margin: 10px auto;
+  flex-direction: row;
+  Flex-wrap: wrap;
+}
+
+.color-container {
+  width: 100%;
+}
+.font-container {
+  width: 100%;
+}
+
+.text-container {
+  width: 100%;
+}
+
+/* 2. Color Container */
+
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+  border: 3px solid black;
+}
+.color-label {
+  text-decoration: underline;
+}
+
+.color-hex {
+  font-weight: 600;
+}
+
+.Red-Salsa {
+  background-color: #F8961E;
+}
+
+.Mango-Tango {
+  background-color: #F9844A;
+}
+
+.Pistashio {
+  background-color: #90BE6D;
+}
+
+.Zomp {
+  background-color: #43AA8B;
+}
+
+.CG-Blue {
+  background-color: #277DA1;
+  color: #fff;
+}
+
+.Charcoal{
+  background-color: #3D5366;
+  color: #fff
+}
+
+/* 3. Font Panel */
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+  text-align: center;
+  font-size: 20pt;
+  vertical-align: middle;
+}
+
+.cardo-regular {
+  Font-Family: 'Cardo', Serif;
+}
+
+.libre-franklin {
+  Font-Family: 'Libre Franklin', Sans-Serif;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+/* 4. Text Styles Panel*/
